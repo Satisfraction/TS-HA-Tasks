@@ -1,0 +1,15 @@
+{
+  "name": "tasklist-test-api",
+  "version": "1.0.0",
+  "description": "a simple tasklist api for testing purpose, using mongoose and express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satisfraction",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  }
+}
