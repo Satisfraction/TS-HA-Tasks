@@ -65,3 +65,10 @@ app.post('/tasks', (req, res) => {
         res.status(500).json({ error: 'Server error' });
       });
   });
+
+//  Middleware hinzufügen
+app.use((req, res, next) => { 
+  const now = new Date().toISOString();
+  console.log(now);
+  next();
+});
